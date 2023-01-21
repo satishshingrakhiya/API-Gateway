@@ -13,7 +13,7 @@ This Project Demonstrates use of Spring Cloud Gateway for Microservices using co
 4. Now start GatewayConfigFile project and visit above two endpoints through this Gateway http://localhost:8080/first/get and http://localhost:8080/second/get. Same output will be received as was given by FirstService and SecondService.
 5. This Gateway is configured in application.yml file (Path: GatewayConfile/scr/main/resources/application.yml). Following dependency should be added in pom.xml to use this gateway
 
-    <dependency>
+    		<dependency>
     
 			<groupId>org.springframework.cloud</groupId>
       
